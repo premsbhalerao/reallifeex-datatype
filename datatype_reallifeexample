@@ -1,0 +1,13 @@
+public class Main{
+public static void main(String[] args){
+int items = 30;
+int costperitems = 5;
+int totalcost = items * costperitems;
+char currency = '$';
+
+//print variable
+System.out.println("number of items : " + items);
+System.out.println("number of costperitems : " + costperitems + currency);
+System.out.println("total cost : " + totalcost + currency);
+}
+}
